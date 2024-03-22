@@ -1,0 +1,44 @@
+.nav {
+    position: absolute;
+    right: 0;
+}
+
+a {
+    border: 2px solid black;
+    cursor: crosshair;
+}
+
+/* Media print - when you want to print the screen */
+@media print {
+    .nav {
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .nav {
+        position: relative;
+    }
+
+    a {
+        cursor: progress;
+    }
+}
+
+/* All pixels below are just some samples you can use for various devices */
+
+/* 
+    Small devices (phones, 600px and below)
+    @media screen and (max-width: 600px)
+*/
+
+/* Small devices (portrait tablets, large phones) 600px and up */
+@media screen and (min-width: 600px) {
+
+}
+
+/* 768px - tablets */
+
+/* 992px - laptops */
+
+/* 1200px - large laptops (17 inches) & monitors */

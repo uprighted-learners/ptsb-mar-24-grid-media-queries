@@ -1,0 +1,39 @@
+body, p {
+    margin: 0;
+}
+
+/* 
+    vw & vh 
+    vw - viewport width: width of page area in browser
+    vh - viewport height: height of page area in browser
+*/
+
+section {
+    background-color: aqua;
+    width: 75vw;
+    height: 50vh;
+}
+
+article {
+    background-color: orange;
+    width: 50vw;
+}
+
+/* Root font size */
+html {
+    font-size: 20px;
+}
+
+/* Parent font size*/
+article {
+    font-size: 24px;
+}
+
+/* 
+    rem vs em
+    rem - takes root font size
+    em - takes parent font size
+*/
+p {
+    font-size: 1rem;
+}
